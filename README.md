@@ -1,2 +1,2 @@
-# azure-devops
-Code snippets and learning notes - Azure DevOps
+# Azure DevOps YAML Pipelines - Personal Learning Notes
+
