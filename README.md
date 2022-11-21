@@ -41,14 +41,16 @@
 - Automated running of unit tests
 
 ## Continuous Delivery Build (CD Build)
-- Automatically deploy code to environments: development/testing/staging/production
+- Automatically deploy code to environments
+  - Development/testing/staging/production
 - Triggers can include artifacts being published as well as time-based scheduled releases
 - Use tested code from CI process
 - Implemented as **Deployment Jobs**
 
 ## Deployment Jobs
-- Special jobs taht publish code to machines
+- Special jobs that publish code to machines
 - Collection of steps to run sequentially against an environment
+  - `AzureRmWebAppDeployment`
   - Web Deploy
   - Kubernetes
   - VM
